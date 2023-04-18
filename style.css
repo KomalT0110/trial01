@@ -1,0 +1,62 @@
+h1 {
+    font-size: 80px;
+}
+
+#div1 {
+    width: 70%;
+    float: left;
+    background-color: orange;
+}
+
+#div2 {
+    width: 30%;
+    float: left;
+    background-color: blue;
+}
+
+
+@media screen and (max-width: 768px) {
+    #div1 {
+        width: 50%;
+    }
+
+    #div2 {
+        width: 50%;
+    }
+}
+
+/* 
+@media screen and (max-width: 400px) {
+    #div1 {
+        width: 50%;
+    }
+
+    #div2 {
+        width: 50%;
+        background-color: pink;
+    }
+}
+ */
+
+@media screen and (min-width: 400px) and (max-width: 768px) {
+    #div1 {
+        width: 100%;
+    }
+
+    #div2 {
+        width: 100%;
+        color: white;
+        background-color: black;
+    }
+}
+
+/* Make a responsive image or video */
+img {
+    width: 100%;
+    height: auto;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
